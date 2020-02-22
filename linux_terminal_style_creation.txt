@@ -1,0 +1,13 @@
+add the file in home directory .bash_profile
+PS1="\`if [ \$? = 0 ]; then echo \[\e[33m\]^_^\[\e[0m\]; else echo \[\e[31m\]O_O\[\e[0m\]; fi\`[\u@\h:\w]\\$ "
+PS1="\'if [ \$? = 0 ];then echo \[\e[32m\]Mario_technology[\e[00m\]; else echo \[\e[31m\]Mario_technology[\e[00m\]; fi\'>> $ "
+
+
+
+PS1="[\`if [ \$? = 0 ]; then echo \[\e[32m\]Mario_technology[^_^]\[\e[0m\]; else echo \[\e[31m\]Mario_technology[O_O]\[\e[0m\]; fi\`][\e[34m\]>>\e[00m\]]$ "
+
+
+
+
+
+PS1="[\e[34m\]>>\e[00m\]] $ "
